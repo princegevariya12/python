@@ -1,0 +1,23 @@
+#for leap year ''
+
+
+                 input: 1996
+       expected output: yes or no (boolean value)
+
+         logic part :)
+
+//  if (year % 400 == 0):
+        return True
+    if (year % 100 == 0):
+        return leap
+    if (year % 4 == 0):
+        return True
+    else:
+        return False  //
+
+
+//    if(year%4==0 and year%400==0 )
+      print(“leap year”)
+      else:
+      print(“not”)    //
+
