@@ -1,0 +1,12 @@
+#for division
+
+                  input: a=10
+                         b=20
+
+       expected output : 0
+                         0.5
+
+         logic part :)
+           
+    print(a // b)  #int result 
+    print(a / b)  #float result
