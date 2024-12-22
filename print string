@@ -1,0 +1,15 @@
+#for print like 123..n without using string
+
+                  input:n=3
+
+       expected output : 1
+                         2
+                         3
+
+        
+            logic part :)
+
+      //   for i in  range(1,n+1):
+      print(i,end="")        //               #end="" is used to get output layout like this 123 to  1   ,  end=" " --> 1 2 3  
+                                                                                                     2
+                                                                                                     3
