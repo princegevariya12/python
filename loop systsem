@@ -1,0 +1,16 @@
+#for loop systsem i<n ; i^2. non-negative .
+
+                  input: n=3
+                         
+        expected output : 0149
+
+             logic part :)
+
+          //   for i in range(0, n):
+              print(i**2)      //
+
+ OR           
+
+         //      if n >= 0:
+            for i in range (0,n):
+                print (i**2)     //
