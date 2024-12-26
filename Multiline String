@@ -1,0 +1,103 @@
+1. Using Triple-Quotes
+it is used to split a large string into a multiline Python string. 
+
+\\code\\
+multiline_string = '''This is a \n
+multiline
+string.'''
+print(multiline_string)
+
+\\o\p\\
+This is a
+multiline
+string.
+
+
+
+
+2. Using parentheses and single/double quotes.
+
+\\code\\
+colors = ("multi-line string\n"
+		"red \n"
+		"blue \n"
+		"green \n"
+		"yellow "
+		)
+
+print(colors)
+
+\\o\p\\
+multi-line string
+red 
+blue 
+green 
+yellow 
+
+
+
+
+3.Using Backslash
+It is used to combine text that consists of individual lines.
+
+\\code\\
+x = "multiline String " \
+	"I love Python" \
+	"Python Langauge"
+print(x)
+
+\\o\p\\
+multiline String I love PythonPython Langauge
+
+
+
+
+4.Using join().
+
+\\code\\
+x = ' '.join(("multiline String ",
+			"Python Language",
+			"Welcome to GFG"))
+print(x)
+
+\\o\p\\
+multiline String  Python Language Welcome to GFG
+
+
+
+
+5.Using string.format().
+ it is used to format strings
+
+\\code\\
+car = "Ferrari"
+price = 250000
+
+x = "Hello, The price of {} is {}".format(car, price)
+
+print(x)
+
+\\o\p\\
+Hello, The price of Ferrari is 250000
+
+
+
+
+
+6.Using % in Python.
+ it is used to format strings
+
+\\code\\
+name = "Rahul"
+points = 1000
+
+x = "Hello, %s! You have %d coins." % (name, points)
+
+print(x)
+
+\\o\p\\
+Hello, Rahul! You have 1000 coins.
+
+ 
+
+
