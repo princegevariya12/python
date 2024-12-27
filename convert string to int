@@ -1,0 +1,8 @@
+num = '10'
+new_num = int(num)
+print(type(new_num)) 
+print(new_num + 20)
+
+//o\p//
+ <class 'int'>
+ 30
