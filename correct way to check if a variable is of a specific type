@@ -1,0 +1,6 @@
+
+ isinstance(var, int)  
+
+
+check if o is an instance of str or any subclass of str:
+if isinstance(o, str):
