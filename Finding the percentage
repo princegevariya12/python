@@ -1,0 +1,20 @@
+
+
+
+
+output = list(student_marks[query_name])    
+result = sum(output)/len(output);
+print("%.2f" % result);    
+
+
+
+ Input 
+
+2
+Harsh 25 26.5 28
+Anurag 26 28 30
+Harsh
+
+Output 
+
+26.50
