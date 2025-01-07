@@ -1,0 +1,23 @@
+
+   # convert sring uppercase to lower case 
+   
+    
+    INPUT : Wow , Hello . AMAZING
+
+     OUTPUT : wOW , hELLO , amazing.
+
+
+
+    logic part :) ''
+ 
+num = ""
+    for cha in s:
+        if cha.isupper() == True:
+            num+=(cha.lower())
+        else:
+            num+=(cha.upper())
+    return num
+
+    s = input()
+    result = swap_case(s)
+    print(result)
